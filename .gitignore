@@ -1,0 +1,44 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Dependency directories
+node_modules/
+.venv/
+venv/
+
+# Build and coverage output
+dist/
+build/
+coverage/
+htmlcov/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript package manager cache
+.npm/
+.pnpm-store/
+.yarn/cache/
+
+# Rust build output
+target/
